@@ -1,0 +1,23 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: max(60%, 500px);
+  height: max(60%, 500px);
+}
+
+#verb-table {
+  margin-top: 50px;
+}
