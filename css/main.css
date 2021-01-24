@@ -14,10 +14,22 @@
   justify-content: center;
   align-items: center;
 
+  padding: 50px;
+
   width: max(60%, 500px);
   height: max(60%, 500px);
 }
 
 #verb-table {
   margin-top: 50px;
+  width: 100%;
 }
+
+  #table-topleft {
+    border: none;
+    width: 20px;
+  }
+
+  .left-col {
+    width: 20px;
+  }
