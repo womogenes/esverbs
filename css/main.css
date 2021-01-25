@@ -16,20 +16,30 @@
 
   padding: 50px;
 
-  width: max(60%, 500px);
+  width: max(60%, 700px);
   height: max(60%, 500px);
 }
 
 #verb-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
   margin-top: 50px;
   width: 100%;
 }
 
+  #verb-table table {
+    display: inline-block;
+
+    table-layout: fixed;
+  }
+
   #table-topleft {
     border: none;
-    width: 20px;
   }
 
   .left-col {
-    width: 20px;
+    width: 100px;
   }
