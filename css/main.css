@@ -16,7 +16,7 @@
 
   padding: 50px;
 
-  width: max(50%, 800px);
+  width: max(50%, 600px);
   height: max(60%, 500px);
 }
 
@@ -38,7 +38,7 @@
   }
 
   #table-topleft {
-    width: 100px;
+    width: 150px;
     border: none;
   }
 

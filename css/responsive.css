@@ -4,6 +4,7 @@ only screen and (max-width: 900px),
 
   h1 {
     margin-top: 50px;
+    text-align: center;
   }
 
 	/* Force table to not be like tables anymore */
@@ -75,7 +76,7 @@ only screen and (max-width: 900px),
 
     width: 100%;
 
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     margin-top: 10px;
 
     padding: 0;
