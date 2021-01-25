@@ -16,11 +16,15 @@
 
   padding: 50px;
 
-  width: max(50%, 700px);
+  width: max(50%, 800px);
   height: max(60%, 500px);
 }
 
-#verb-table {
+#verb-table-mobile {
+  display: none;
+}
+
+#verb-table-desktop {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,14 +33,15 @@
   width: 100%;
 }
 
-  #verb-table table {
+  #verb-table-desktop table {
     width: 100% !important;
   }
 
   #table-topleft {
+    width: 100px;
     border: none;
   }
 
   .left-col {
-    width: 100px;
+    width: 150px;
   }

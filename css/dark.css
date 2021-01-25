@@ -1,14 +1,19 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #eee;
+    --border-color: #666;
+  }
+
   body {
     background-color: #181a1b;
-    color: #eee;
+    color: var(--text-color);
   }
 
   input {
     background-color: #181a1b;
-    border-color: #eee;
-    color: #eee;
+    border-color:var(--border-color);
+    color: var(--text-color);
   }
 
     input:focus {
@@ -16,6 +21,6 @@
     }
 
   th, td {
-    border-color: #eee;
+    border-color: var(--border-color);
   }
 }

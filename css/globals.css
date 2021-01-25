@@ -47,6 +47,7 @@ table {
   th {
     text-align: left;
     width: 100px;
+    line-height: 130%;
   }
 
   thead > tr > th {

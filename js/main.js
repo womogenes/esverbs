@@ -5,7 +5,7 @@ const update = verb => {
   let result = conjugator.conjugate(verb);
     
   for (let form in result) {
-    $(`#${form}`).text(result[form]);
+    $(`.${form}`).text(result[form]);
   }
 
   $('#verb-input').select();
