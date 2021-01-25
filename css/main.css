@@ -9,7 +9,6 @@
 }
 
 #main-content {
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,7 +16,7 @@
 
   padding: 50px;
 
-  width: min(80%, 900px);
+  width: max(60%, 500px);
   height: max(60%, 500px);
 }
 
@@ -27,11 +26,10 @@
 }
 
   #table-topleft {
-    /* border: none; */
+    border: none;
     width: 20px;
   }
 
   .left-col {
     width: 20px;
-    text-align: center;
   }
