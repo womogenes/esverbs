@@ -25,15 +25,12 @@
   justify-content: center;
   align-items: center;
 
-  box-sizing: border-box;
   margin-top: 50px;
   width: 100%;
 }
 
   #verb-table table {
-    display: inline-block;
-
-    table-layout: fixed;
+    width: 100% !important;
   }
 
   #table-topleft {

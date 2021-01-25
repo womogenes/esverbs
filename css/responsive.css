@@ -1,6 +1,6 @@
 @media 
-only screen and (max-width: 800px),
-(min-device-width: 768px) and (max-device-width: 800px)  {
+only screen and (max-width: 900px),
+(min-device-width: 768px) and (max-device-width: 900px)  {
 
   h1 {
     margin-top: 50px;
@@ -36,7 +36,7 @@ only screen and (max-width: 800px),
 		position: absolute;
 		/* Top/left values mimic padding */
 		top: 10px;
-		left: 10px;
+    left: 10px;
 		width: 45%; 
 		padding-right: 10px; 
 		white-space: nowrap;
