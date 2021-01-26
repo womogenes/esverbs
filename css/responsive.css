@@ -1,5 +1,6 @@
-@media 
-only screen and (max-width: 900px),
+/* TABLE STYLING TAKEN FROM https://css-tricks.com/responsive-data-tables/ */
+
+@media only screen and (max-width: 900px),
 (min-device-width: 768px) and (max-device-width: 900px)  {
 
   h1 {
@@ -29,7 +30,7 @@ only screen and (max-width: 900px),
 		border-bottom: 1px solid #eee; 
 		position: relative;
     padding-left: 50%; 
-    width: 50%;
+    width: calc(50% - 10px);
 	}
 	
 	td:before { 
@@ -60,6 +61,11 @@ only screen and (max-width: 900px),
     justify-content: left;
   }
 
+    #top-content {
+      height: 160px;
+      margin-bottom: 10px;
+    }
+
   #verb-input {
     width: 80%;
   }
@@ -76,7 +82,7 @@ only screen and (max-width: 900px),
 
     width: 100%;
 
-    margin-bottom: 25px;
+    margin-bottom: 100px;
     margin-top: 10px;
 
     padding: 0;

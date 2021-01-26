@@ -3,15 +3,16 @@
   :root {
     --text-color: #eee;
     --border-color: #666;
+    --theme-background: #2e5579;
   }
 
   body {
-    background-color: #181a1b;
+    background-color: #1a1a1a;
     color: var(--text-color);
   }
 
   input {
-    background-color: #181a1b;
+    background-color: #1a1a1a;
     border-color:var(--border-color);
     color: var(--text-color);
   }
@@ -22,5 +23,26 @@
 
   th, td {
     border-color: var(--border-color);
+  }
+
+  #footer {
+    background-color: var(--theme-background);
+  }
+
+  /* Scrollbars! */
+  ::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #282828;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #777;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #666;
   }
 }

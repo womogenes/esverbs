@@ -31,15 +31,26 @@
     <link rel=stylesheet href="css/dark.css">
     <link rel=stylesheet href="css/responsive.css">
 
+    <!-- Content -->
     <title>Spanish Verb Conjugator</title>
+
+    <!-- Preview! (OG) -->
+    <meta property="og:url" content="https://esverbs.ga" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Spanish Verb Conjugator" />
+    <meta property="og:description" content="Conjugate Spanish verbs 100% in-browser with Javascript. No ads, completely free to use." />
+    <meta property="og:image" content="https://esverbs.ga/favicon.svg">
   </head>
   
   <body>
 
     <div id="root">
       <div id="main-content">
-        <h1 id="title">Spanish Verb Conjugator</h1>
-        <input type="text" id="verb-input" placeholder="Verb" spellcheck="false">
+
+        <div id="top-content">
+          <h1 id="title">Spanish Verb Conjugator</h1>
+          <input type="text" id="verb-input" placeholder="Verb" spellcheck="false">
+        </div>
 
         <div id="verb-table-desktop">
           <table>
@@ -160,7 +171,7 @@
       </div>
 
       <div id="footer">
-        <p>Made with ❤ by William Feng</p>
+        <p>Made by <a id="my-link" href="https://womogenes.github.io">William Y. Feng</a></p>
       </div>
     </div>
 
