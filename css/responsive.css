@@ -90,6 +90,7 @@
 
     #verb-table-mobile table {
       padding: 0 20px;
+      empty-cells: show;
     }
 
   td:nth-of-type(1):before { content: "yo"; }
