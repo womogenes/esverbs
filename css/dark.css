@@ -3,7 +3,7 @@
   :root {
     --text-color: #eee;
     --border-color: #666;
-    --theme-background: #2e5579;
+    --theme-background: #254563;
   }
 
   body {
@@ -44,5 +44,12 @@
 
   ::-webkit-scrollbar-thumb:hover {
     background: #666;
+  }
+
+  /* Icons */
+  .fa-github {
+    background: transparent;
+    color: #eee;
+    border: 2px solid #eee;
   }
 }

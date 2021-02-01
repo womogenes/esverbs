@@ -44,12 +44,20 @@
 		white-space: nowrap;
   }
 
+  .fa {
+    padding: 5px;
+  }
+
   .left-col {
     box-sizing: border-box;
     width: 100%;
 
     margin-top: 20px;
     margin-bottom: 10px;
+  }
+
+  #header {
+    padding: 15px;
   }
   
   #main-content {
@@ -62,7 +70,7 @@
   }
 
     #top-content {
-      height: 160px;
+      height: 100px;
       margin-bottom: 10px;
     }
 

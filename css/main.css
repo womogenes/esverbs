@@ -7,11 +7,23 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 
   width: 100%;
   height: 100%;
+}
+
+#header {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: var(--theme-background);
+
+  padding: 20px;
+
+  width: 100%;
 }
 
 #main-content {
@@ -24,7 +36,6 @@
   padding-top: 0;
 
   width: max(50%, 600px);
-  height: 100%;
 }
 
   #top-content {
@@ -34,13 +45,16 @@
     align-items: center;
 
     width: 100vw;
-    height: 100%;
 
     padding: 20px 0;
     margin-bottom: 50px;
 
     background-color: var(--theme-background);
     color: var(--text-color);
+  }
+
+  #title {
+    padding: 0 20px;
   }
 
   #verb-input {
@@ -66,8 +80,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-bottom: 200px;
 
   width: 100%;
 }
@@ -105,3 +117,7 @@
     text-decoration: none;
     font-weight: bold;
   }
+
+    #my-link:hover {
+      text-decoration: underline;
+    }

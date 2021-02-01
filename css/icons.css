@@ -1,0 +1,26 @@
+.fa {
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  opacity: 1;
+
+  padding: 10px;
+  border-radius: 50%;
+  width: 30px;
+
+  transition: all .2s ease-in-out;
+  -webkit-font-smoothing: subpixel-antialiased;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+  .fa:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+.fa-github {
+  background: transparent;
+  color: #eee;
+  border: 2px solid #eee;
+}
