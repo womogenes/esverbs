@@ -25,8 +25,7 @@
 
     <!-- Our own scripts -->
     <script type="text/javascript" src="js/main.js" defer></script>
-    <script type="text/javascript" src="js/themes.js" defer></script>
-
+    
     <!-- Stylesheets -->
     <link rel=stylesheet href="css/normalize.css">
     <link rel=stylesheet href="css/globals.css">
@@ -42,7 +41,7 @@
     <meta property="og:url" content="https://esverbs.ga" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Spanish Verb Conjugator" />
-    <meta property="og:description" content="Conjugate Spanish verbs 100% in-browser with Javascript. No ads, completely free to use." />
+    <meta property="og:description" content="Conjugate Spanish verbs 100% in-browser with Javascript. No ads, and completely free to use." />
     <meta property="og:image" content="https://esverbs.ga/favicon.svg">
   </head>
   
@@ -56,12 +55,15 @@
         </div>
       </div>
 
-      <div id="main-content">
-
-        <div id="top-content">
-          <h1 id="title">Spanish Verb Conjugator</h1>
+      <div id="top-content">
+        <h1 id="title">Spanish Verb Conjugator</h1>
+        <div id="search-bar">
           <input type="text" id="verb-input" placeholder="Verb" spellcheck="false">
+          <button id="conjugate-button" onclick="update($('#verb-input').val());">Conjugate</button>
         </div>
+      </div>
+
+      <div id="main-content">
 
         <div id="verb-table-desktop">
           <table>
@@ -75,10 +77,10 @@
 
             <tr>
               <th class="left-col">yo</td>
-                <td class="1pre"></td>
-                <td class="1pas"></td>
-                <td class="1cop"></td>
-                <td class="1pp"></td>
+              <td class="1pre"></td>
+              <td class="1pas"></td>
+              <td class="1cop"></td>
+              <td class="1pp"></td>
             </tr>
 
             <tr>

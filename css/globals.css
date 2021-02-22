@@ -14,7 +14,7 @@ h1 {
 
 input {
   box-sizing: content-box;
-  margin: 4px;
+  margin: 10px;
   width: 500px;
   height: 30px;
 
@@ -26,9 +26,39 @@ input {
 }
 
   input:focus {
-    border-width: 4px;
+    border-width: 6px;
     background-clip: content-box;
-    margin: 2px;
+    margin: 6px;
+  }
+
+button {
+  box-sizing: content-box;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid #eee;
+  border-radius: 9999px;
+  height: 30px;
+  padding: 10px 20px;
+  margin: 10px;
+
+  cursor: pointer;
+
+  background-color: var(--theme-background);
+  color: var(--text-color);
+
+  outline: none;
+}
+
+  button:hover {
+    background-color: var(--button-hover);
+  }
+
+  button:active {
+    background-color: var(--button-active);
+  }
+
+  button:focus {
+    border-width: 6px;
+    margin: 6px;
   }
 
 table {

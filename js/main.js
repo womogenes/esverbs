@@ -8,13 +8,14 @@ const update = verb => {
     $(`.${form}`).text(result[form]);
   }
 
-  $('#verb-input').select();
+  //$('#verb-input').select();
   localStorage.setItem('verb', $('#verb-input').val());
 }
 
 $('#verb-input').on('keyup', e => {
   if (e.key === 'Enter' || e.keyCode === 13) {
     update($('#verb-input').val());
+    $('#verb-input').select();
   }
 });
 

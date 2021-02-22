@@ -4,6 +4,8 @@
     --text-color: #eee;
     --border-color: #666;
     --theme-background: #254563;
+    --button-active: #295b8a;
+    --button-hover: #122f4b;
   }
 
   body {
@@ -16,10 +18,6 @@
     border-color:var(--border-color);
     color: var(--text-color);
   }
-
-    input:focus {
-      border-width: 4px;
-    }
 
   th, td {
     border-color: var(--border-color);

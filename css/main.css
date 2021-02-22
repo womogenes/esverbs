@@ -1,6 +1,8 @@
 :root {
   --theme-background: #33699b;
   --text-color: #f8f8f8;
+  --button-active: #3b7cb8;
+  --button-hover: #1b466e;
 }
 
 #root {
@@ -26,16 +28,26 @@
   width: 100%;
 }
 
+#search-bar {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 30px;
+}
+
 #main-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  padding: 50px;
-  padding-top: 0;
+  margin-top: 50px;
+  padding: 60px 10px;
 
-  width: max(50%, 600px);
+  width: max(50%, 700px);
+
+  overflow-y: auto;
 }
 
   #top-content {
@@ -47,7 +59,6 @@
     width: 100vw;
 
     padding: 20px 0;
-    margin-bottom: 50px;
 
     background-color: var(--theme-background);
     color: var(--text-color);
@@ -89,12 +100,12 @@
   }
 
   #table-topleft {
-    width: 150px;
     border: none;
   }
 
   .left-col {
-    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
   }
 
 #footer {
