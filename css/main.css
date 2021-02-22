@@ -20,13 +20,17 @@
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   background-color: var(--theme-background);
 
-  padding: 20px;
+  padding: 10px;
 
   width: 100%;
 }
+
+  #header-content {
+    display: flex;
+  }
 
 #search-bar {
   box-sizing: border-box;
@@ -37,15 +41,18 @@
 }
 
 #main-content {
+  box-sizing: padding-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  margin-top: 50px;
-  padding: 60px 10px;
+  margin-top: 10px;
+  padding: 0 10px;
+  padding-top: 60px;
 
   width: max(50%, 700px);
+  height: auto;
 
   overflow-y: auto;
 }
@@ -66,6 +73,7 @@
 
   #title {
     padding: 0 20px;
+    margin: 10px;
   }
 
   #verb-input {
@@ -109,15 +117,14 @@
   }
 
 #footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 10px 0 5px 0;
   background-color: var(--theme-background);
   color: var(--text-color);
   text-align: center;
 }
+
+  #footer p {
+    margin: 5px;
+  }
 
   #footer p a {
     font-family: 'Montserrat', Arial, sans-serif;
