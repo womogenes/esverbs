@@ -41,18 +41,10 @@
 }
 
 #main-content {
-  box-sizing: padding-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
 
-  margin-top: 10px;
-  padding: 0 10px;
-  padding-top: 60px;
-
-  width: max(50%, 700px);
-  height: auto;
+  width: max(50%, 900px);
 
   overflow-y: auto;
 }
@@ -65,7 +57,7 @@
 
     width: 100vw;
 
-    padding: 20px 0;
+    padding: 10px 0;
 
     background-color: var(--theme-background);
     color: var(--text-color);
@@ -91,21 +83,14 @@
       color: var(--text-color);
     }
 
+
+#verb-table-desktop {
+  margin: 0 20px;
+}
+
 #verb-table-mobile {
   display: none;
 }
-
-#verb-table-desktop {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 100%;
-}
-
-  #verb-table-desktop table {
-    width: 100% !important;
-  }
 
   #table-topleft {
     border: none;
